@@ -214,7 +214,7 @@ echo "ffmpeg-build-script v$SCRIPT_VERSION"
 echo "========================="
 echo ""
 
-CONFIGURE_OPTIONS+=("--enable-libass")
+CONFIGURE_OPTIONS+=("--enable-libass --enable-libxcb")
 
 while (($# > 0)); do
   case $1 in
