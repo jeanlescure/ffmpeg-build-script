@@ -216,6 +216,7 @@ echo ""
 
 CONFIGURE_OPTIONS+=("--enable-libass")
 CONFIGURE_OPTIONS+=("--enable-libxcb")
+CONFIGURE_OPTIONS+=("--enable-gpl")
 
 while (($# > 0)); do
   case $1 in
